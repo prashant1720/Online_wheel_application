@@ -1,12 +1,24 @@
 import 'package:flutter/material.dart';
 class DptQuestion extends StatefulWidget {
+  static const String id = "Department Questions  Page";
   @override
   _DptQuestionState createState() => _DptQuestionState();
 }
 
 class _DptQuestionState extends State<DptQuestion> {
 
-  var question_List = [
+
+   // ignore: non_constant_identifier_names
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class Questions{
+  static final question_List = [
 
     {
       "qst_cse": "This is a c Program",
@@ -58,9 +70,4 @@ class _DptQuestionState extends State<DptQuestion> {
   ];
 
 
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
 }
